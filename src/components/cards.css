@@ -1,0 +1,34 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background-color: royalblue;
+  color: white;
+  border: solid 5px red;
+}
+
+.card:hover {
+  filter: drop-shadow(10px 2px 2px #4444dd);
+}
+
+.cardHolder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3rem;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  font-size: 3rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
